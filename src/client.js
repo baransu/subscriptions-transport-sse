@@ -1,5 +1,5 @@
 import {ApolloLink, Observable} from 'apollo-link';
-import EventSource from 'eventsource';
+import EventSource from 'react-native-event-source';
 import {print} from 'graphql/language/printer';
 import isString from 'lodash.isstring';
 import isObject from 'lodash.isobject';
