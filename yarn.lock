@@ -3097,11 +3097,6 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-native-event-source@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-native-event-source/-/react-native-event-source-1.0.1.tgz#7d063207d2d2d58f587bdd15f1783ebe4bc65c87"
-  integrity sha512-pDbGSjy2nWaX7ZEDWSL1krcGLm5ctyjlwYmQi7q/8bGtRXio7YJi5OKZjr3T33MAmD3PV/Bs4NH/f7uvojndZw==
-
 read-pkg-up@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-2.0.0.tgz#6b72a8048984e0c41e79510fd5e9fa99b3b549be"

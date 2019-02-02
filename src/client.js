@@ -1,8 +1,8 @@
 import {ApolloLink, Observable} from 'apollo-link';
-import EventSource from 'react-native-event-source';
 import {print} from 'graphql/language/printer';
 import isString from 'lodash.isstring';
 import isObject from 'lodash.isobject';
+import EventSource from './eventsource';
 
 export class SubscriptionClient {
   constructor(url, httpOptions) {
@@ -43,6 +43,7 @@ export class SubscriptionClient {
         const evtSource = new EventSource(`${this.url}/${subId}`, {
           headers
         });
+
         this.subscriptions[subId] = {options, handler, evtSource};
 
         evtSource.onmessage = e => {
